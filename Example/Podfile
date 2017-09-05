@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DevKernel_Example' do
+  pod 'DevKernel', :path => '../'
+
+  target 'DevKernel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
