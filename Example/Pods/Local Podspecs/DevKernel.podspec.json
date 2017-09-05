@@ -1,0 +1,22 @@
+{
+  "name": "DevKernel",
+  "version": "0.1.0",
+  "summary": "A short description of DevKernel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rangechiong/DevKernel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rangechiong": "changrz1@centaline.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/rangechiong/DevKernel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DevKernel/Classes/**/*"
+}

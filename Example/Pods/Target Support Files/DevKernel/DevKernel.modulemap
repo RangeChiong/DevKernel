@@ -1,0 +1,6 @@
+framework module DevKernel {
+  umbrella header "DevKernel-umbrella.h"
+
+  export *
+  module * { export * }
+}

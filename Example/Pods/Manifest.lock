@@ -1,0 +1,16 @@
+PODS:
+  - DevKernel (0.1.0)
+
+DEPENDENCIES:
+  - DevKernel (from `../`)
+
+EXTERNAL SOURCES:
+  DevKernel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DevKernel: 5a5b1beba637c9f16e0a893258af74cf525f278f
+
+PODFILE CHECKSUM: 896cb934e63b743e5a77a505fc63aed224c24d52
+
+COCOAPODS: 1.2.1
