@@ -14,6 +14,8 @@
 		41CF8FDC37C96D0583500BD06EC23878 /* Pods-DevKernel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0C649AE56F240E83AB10F2E05A2197 /* Pods-DevKernel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4478E0631F5EAB7D00E2F2BF /* CocoaClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4478E0611F5EAB7D00E2F2BF /* CocoaClass.h */; };
 		4478E0641F5EAB7D00E2F2BF /* CocoaClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478E0621F5EAB7D00E2F2BF /* CocoaClass.m */; };
+		4478E0661F5F87BB00E2F2BF /* ZYKernelDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4478E0651F5F87BB00E2F2BF /* ZYKernelDefines.h */; };
+		4478E0671F5F87BB00E2F2BF /* ZYKernelDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4478E0651F5F87BB00E2F2BF /* ZYKernelDefines.h */; };
 		7786034487BCCAEC3355588EE2685704 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		846B3D9B43C3CC880E16871349025A31 /* Pods-DevKernel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9387811BE3953FD484A0C4028C55F /* Pods-DevKernel_Tests-dummy.m */; };
 		87ED1B118280F494C86FFB6DCE9EAFE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -40,6 +42,7 @@
 		41730093740B674DDA910CF8F060BE31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4478E0611F5EAB7D00E2F2BF /* CocoaClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaClass.h; sourceTree = "<group>"; };
 		4478E0621F5EAB7D00E2F2BF /* CocoaClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaClass.m; sourceTree = "<group>"; };
+		4478E0651F5F87BB00E2F2BF /* ZYKernelDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKernelDefines.h; sourceTree = "<group>"; };
 		4A941F674722191BA9C8102B27D3200D /* Pods_DevKernel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevKernel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5250C57D04D9642BC836DF8B7059A838 /* DevKernel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DevKernel.xcconfig; sourceTree = "<group>"; };
 		5D7B6C5A09F707ED6A4E194DC6E2E461 /* Pods-DevKernel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DevKernel_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -149,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				4478E0601F5EAB7D00E2F2BF /* Hook */,
+				4478E0651F5F87BB00E2F2BF /* ZYKernelDefines.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -249,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41CF8FDC37C96D0583500BD06EC23878 /* Pods-DevKernel_Example-umbrella.h in Headers */,
+				4478E0671F5F87BB00E2F2BF /* ZYKernelDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +261,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4478E0661F5F87BB00E2F2BF /* ZYKernelDefines.h in Headers */,
 				3DACC1A1192131514AB5DF4C080BA022 /* DevKernel-umbrella.h in Headers */,
 				4478E0631F5EAB7D00E2F2BF /* CocoaClass.h in Headers */,
 			);
